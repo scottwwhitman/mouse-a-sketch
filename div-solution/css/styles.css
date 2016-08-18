@@ -5,7 +5,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.pixel {
+.big-pixel {
   position: absolute;
   height: 4px;
   width: 4px;

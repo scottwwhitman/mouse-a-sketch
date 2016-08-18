@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   var $colorPicker = $("input"),
       activeColor = $colorPicker.val();
-  
+
   $colorPicker.on("change", function(){
     activeColor = $colorPicker.val();
   });
@@ -14,7 +14,7 @@ $(document).ready(function(){
       }
 
       var $pixel = $("<div>", {
-          class: "pixel",
+          class: "big-pixel",
           css: {
             top: event.pageY,
             left: event.pageX,
